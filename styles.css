@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 5em;
+}
+
+li a:hover {
+    background-color: #111;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
